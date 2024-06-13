@@ -57,6 +57,10 @@ class InvoiceView(ModelViewSet):
     filterset_class  = InvoiceFilter
     ordering_fields = '__all__'
 
+    def get_queryset(self):
+        user = self.request.user
+        return Invoice.objects.filter(customerCNPJ=user.registrationNumber)
+
 class InvoiceItemView(ReadWriteSerializerMixin, ModelViewSet):
     queryset = InvoiceItem.objects.all()
     write_serializer_class = InvoiceItemWriteSerializer

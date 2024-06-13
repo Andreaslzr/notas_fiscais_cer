@@ -5,10 +5,11 @@ definePageMeta({
 })
 
 
+
 </script>
 
 <template>
-    <main class="notas-container flex flex-column align-items-center">
+    <main class="notas flex flex-column align-items-center">
     <h1>Buscar notas fiscais</h1>
     <section>
             <div>
@@ -18,13 +19,8 @@ definePageMeta({
                 </FloatLabel> <br>
                 <FloatLabel>
                     <InputText/>
-                    <label>Buscar pela data de início</label>
-                </FloatLabel> <br>
-                <FloatLabel>
-                    <InputText/>
-                    <label>Buscar pela data de fim</label>
-                </FloatLabel> <br>
-                
+                    <label>Buscar pela data</label>
+                </FloatLabel> <br>  
             </div>
         </section>
     </main>
@@ -32,7 +28,7 @@ definePageMeta({
 
 <style scoped lang="scss">
 
-.notas-container {
+.notas {
   margin: 0;
   width: 100vw;
   min-height: calc(100vh - 80px);
