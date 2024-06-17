@@ -1,1 +1,1 @@
-Vercer: https://notas-fiscais-cer.vercel.app
+Vercel: https://notas-fiscais-cer.vercel.app
