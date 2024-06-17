@@ -1,1 +1,2 @@
 Vercel: https://notas-fiscais-cer.vercel.app
+Railway: notasfiscaiscer-production-c4aa.up.railway.app
