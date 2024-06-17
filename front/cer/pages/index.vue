@@ -78,6 +78,9 @@ const fazerLogin = () => {
             #login-button {
                 width: 250px;
                 height: 30px;
+                background-color: rgb(105, 15, 189);
+                color: black;
+                border-color: black;
             }
 
             #erro {
